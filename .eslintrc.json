@@ -1,0 +1,20 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": ["airbnb-base"],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "rules": {
+    "consistent-return": "off",
+    "func-names": "off",
+    "import/extensions": "off",
+    "linebreak-style": ["error", "windows"],
+    "prefer-arrow-callback": "off",
+    "radix": "off"
+  }
+}
