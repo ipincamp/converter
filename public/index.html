@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Converter</title>
+</head>
+
+<body>
+    <h1>Merger</h1>
+    <p> <strong>Note!</strong> Max size count is <b>100 Mbps</b></p>
+    <form action="/token" method="post" enctype="multipart/form-data">
+        <label for="aud">Audio File :</label>
+        <input type="file" name="aud"> <br>
+        <label for="vid">Video File :</label>
+        <input type="file" name="vid"> <br> <br>
+        <input type="submit" value="Get Token!">
+    </form>
+    <h3>Access My Token</h3>
+    <form action="/tokens" method="get">
+        <label for="token">Token :</label>
+        <input type="text" name="token" value="" placeholder="Your Token...">
+        <input type="submit" value="Get Result">
+    </form>
+</body>
+
+</html>
